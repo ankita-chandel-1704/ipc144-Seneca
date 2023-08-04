@@ -1,0 +1,48 @@
+/*
+*****************************************************************************
+                        Assignment 1 - Milestone 3
+Full Name : Ankita Chandel
+Student ID#: 161317219
+Email : achandel1@myseneca.ca
+Section : ZDD
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+ans1. The three functions created are:-
+     void viewAppointments(struct ClinicData* data)In this function data inside structure will be taken as arguments.Purpose of using this function is 
+        to display list of patient's appointments. This will will display appointments and their time and date at which ther are scheduled.
+       and patient details as well including thier number,name .User can view,reschedule and book their appointments using this function.
+     
+
+     Void addAppointment(struct Appointment *appointments, int maxAppointments, struct Patient *patients, int maxPatient)-This function 
+is used to add appointments, if number of patients allowed are not full then it would propmt user to scehedule appointment and ask for 
+deatils like name, number, preffered time.
+
+
+    sortingAppoint(appointments, size)-This function would display the appointments scheduled in ascending order of their date and time
+for which they are booked.
+
+ans2 I used 90 to 100 lines for addAppointment function, because using this i didnt needed to code the repetitive steps happening.
+By adding few methods of pattern recognisation into different functions. 
+
+checkLeapYear(&appointments[size].date)-This function is to check the time that is taken from addAppointment functions and if they are 
+and checks if the value isvalid, if it is not valid it displays error and ask user to enter another time. Also for date it checks if the
+year is leap then it sets the date accordingly in Feburary.
+
+basically size(quantity)=calculateSizeOfAppointmentsArray(appointments, maxAppointments)-This function checks if there is vacancy in appointment
+for new appointment. This is realy very important to ensure proper completion of code, so that there is a limit  to the 
+number of appointments.
+
+ans3 I planned my milestone 3 in a very systematic way. As i had other projects too, i used to di code at night. Firstly i went through the codes
+and the additional functions that were required to be added, i understoodbhem and made them. Then i analyzed the four files core.c clini.c 
+core.h clinic.h and created a projrct for them and placed contents in them and rearranged my code. I placed initializaTtion of functio in header 
+files , then included those files whereever it was asked in c files. Still my  code was not proper then i realized there are 2 txt files 
+that are needed to be included then i copied the data and made two files patientData and appointmentData and placed along with the 5 files
+inside project file and then ran the code and it included the 20 patients and 15 appointment deatils.
+ 
+
+       

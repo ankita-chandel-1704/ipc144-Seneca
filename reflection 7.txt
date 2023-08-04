@@ -1,0 +1,39 @@
+REFLECTION
+1.Structures are used to make our code compact.
+in this workshop i used 2 structures one for storing information regarding game and 
+another for storing player details.
+Structures are used to store any type of data structures inside them.
+struct PlayerInfo
+{
+    char character_symbol;
+    int number_of_lives;
+    int Treasure;
+    int Player_History[Max_length];
+};
+
+// declaring structure 2 for game info
+
+struct GameInfo
+{
+    int path_length;
+    int number_of_moves;
+    int Bomb_location[Max_length];
+    int Treasure_location[Max_length];
+};
+
+We can even use these integers or arrays normally as they are used inside the code.
+
+
+
+
+
+2.In that case there would be 2 parallel arrays if we stored the games played.In  storing array
+we could have stored the games played inside that and used it along side the code.
+
+
+
+
+3.I spent most of my time in figuring out the code requiring the previous output to be saved and input the next input and 
+present all the saved outputs simultaneously.
+To overcome this i placed that part in loop and applied logic and saved every input into the variaiables and with the help of nested for loops 
+arrays i made my code.

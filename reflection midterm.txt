@@ -1,0 +1,120 @@
+Name-Ankita Chandel
+Student Id - 161317219
+
+
+ans1.
+The code must be presented according to style guidelines.In this code i would have corrected the layout of the code beacuse it is not preseted 
+properly.It is essential to make our logic appear in a structured format.
+
+Firstly the indentation.
+This involves  representation of each code block seperately, in this we can clearly see the starting and ending of code block.
+
+Secondly line lengths
+This involves presenting the content included in a "printf" format in 1 straight line or  in different subparts or chunks written in next lines.
+One or the other way is adopted to avid confusions and this is done on the basis of the length of line and the requirement in the code.
+
+Next is braces
+opening and closing braces must be seen cleary to understand the code, to achieve this we often mention the brackets in seperate lines .
+That means one line is used only to mention the brackets.
+
+1) In line number 4 and 5 the macros must be defined collectively at one place above (#include <stdio.h>) statement.
+
+2)In line number 6 
+braces - the curly bracket must be represented in different line, that is in next line.
+variable declaration must be done in seperate lines, each line must contain 1 type of variable identifier only.
+
+3)In line number 7 and 8
+in accordance to line length - the content inside printf format must be represented in  3 seperate lines where, content after \n should be written in next line.
+
+4)In line number 9 
+braces -the  curly bracket startig for loop  must be represented in different line, that is in next line.
+the variables specification must be done under int main (void), all integers are required to be specified collectively before printf statements.
+
+5)In line number 10
+braces -the  curly bracket startig for do while loop  must be represented in different line, that is in next line.
+in accordance to indentation - printf statement must be written in next to line and further the scanf statement should be placed in next 
+under printf statement.
+
+6)In line number 11
+braces -the  curly bracket startig for if loop  must be represented in different line, that is in next line.
+in accordance to indentation - the calculation of valid integer must be written in next line.
+                                Further the nested if condition  must be written in next to next line.
+                               the prinft statement under if condition should be written further in next line.
+braces -then  curly bracket closing  for if loop  must be represented in different line, that is in next line.
+ 
+7)In line number 12
+braces -the  curly bracket startig for else condition must be represented in different line, that is in next line.
+in accordance to indentation - the calculation of valid integer must be written in next line.
+                                Further the nested if condition  must be written in next to next line.
+                               the prinft statement under if condition should be written further in next line.
+braces -then  curly bracket closing  for if loop  must be represented in different line, that is in next line.
+        then  curly bracket closing  for else  condition  must be represented in different line, that is in next line. 
+
+8)In line number 13
+the calculation of last bid must be declared in next line.
+variable keepBidding must pe declared at the top of code.
+
+9)In line number 14
+in accordance to indentation - the printf statement must be written in next line and the sacnf satement in next to next line.
+
+10)In line number 15
+    in accordance to indentation - the printf statement must be written in next line.
+
+11)In line number 16
+in accordance to  line lengths - continued statement must be printed in single string.
+in accordance to indentation - the return 0 statement must be printed in next line .
+braces -the  curly bracket closing main function must be represented in different line, that is in next line.
+
+   
+
+Question 2 
+
+1) 3 reasons for using single entry single exit structure in iteration construct are:-
+   
+a)To make to loop work smoothely in a systematic order, without any errors generated because of using breaks.
+b)To make else conditions work correctly without exiting main loop(using flag).
+c)In this we can modify or update any condition or correct bugs in loop without affecting other conditions.
+
+
+
+2)A code comprises various things depending on the requirement and complexity of output.
+
+a)Variables - These are used to store data in code.They are assignned type, to specify the type of data they will store.
+              for eg:- 
+              int stores numeric values 
+              char stores alphabetic  values 
+              flaot double stores decimal numeric values 
+              are few types.
+
+b)Expressions - this enables processing of calculations in code, calculations are performed between operands which could be variables or constants.
+                There are 3 kinds of expressions 
+               Arithematic - addition(+), subbtraction(-),multiplication(*),division(/)
+               Relational- ==, >= , <= , >, <, !=
+               Logical- &&(both operands are true),||(one operands is true),!=(no operands is true)
+         
+c)Selection- These statements are used to specify  condidtions and further specify respective sequences.
+             Optional-'if' statement is used to specify one condition only.              
+             Alternative - combination of 'if' and 'else' is used to specify a condition and if not then other sequence under else is followed.
+             
+d)Iteration- These are used to repeat a code several times.Loops are used to do this they control the conditions for running and the number of 
+             times loop will be repeated.
+             do while loop
+             for loop 
+             while loop 
+              
+            
+
+
+                  
+
+
+
+
+
+
+
+
+
+
+
+
